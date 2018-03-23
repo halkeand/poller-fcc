@@ -2,6 +2,9 @@
   "name": "poller-fcc",
   "version": "1.0.0",
   "description": "",
+  "repository": {
+    "url": "https://github.com/halkeand/poller-fcc"
+  },
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./src/index.js",
