@@ -170,7 +170,7 @@ class Pollcard extends Component {
           )}
 
         <CopyToClipboard
-          text={`http://localhost:3000/polls/${_id}`}
+          text={`https://guarded-depths-41566.herokuapp.com/polls/${_id}`}
           onCopy={() => this.setState({ copied: true })}
         >
           <Button revertColors>
